@@ -1,0 +1,5 @@
+.env
+backend/venv/
+student_management/node_modules/
+__pycache__/
+*.pyc

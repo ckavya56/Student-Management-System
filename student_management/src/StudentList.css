@@ -1,0 +1,109 @@
+.student-list {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.student-list h2 {
+    color: #1e3a5f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.student-card {
+    background-color: white;
+
+    padding: 20px;
+    margin-bottom: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+    border-left: 4px solid #2563eb;
+}
+
+.student-info h3 {
+    color: #1e3a5f;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.student-info p {
+    color: #6b7280;
+
+    margin: 6px 0;
+}
+
+.edit-button,
+.delete-button,
+.save-button {
+    padding: 8px 16px;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+/* Edit */
+
+.edit-button {
+    background-color: #0f766e;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #0d5f59;
+}
+
+/* Delete */
+
+.delete-button {
+    background-color: #dc2626;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #b91c1c;
+}
+
+/* Edit section */
+
+.edit-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.edit-input {
+    flex: 1;
+
+    padding: 10px;
+
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+
+    font-size: 15px;
+}
+
+.edit-input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Save */
+
+.save-button {
+    background-color: #2563eb;
+    color: white;
+}
+
+.save-button:hover {
+    background-color: #1d4ed8;
+}
